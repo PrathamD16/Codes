@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : assignment4.cpp
-// Author      :
+// Author      : Pratham Doke
 // Version     :
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style

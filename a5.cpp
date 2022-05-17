@@ -1,3 +1,9 @@
+/*
+    Name: Pratham Doke
+    Roll no: 21125
+    SE1 F1
+*/
+
 #include <iostream>
 #define SIZE 10
 using namespace std;
