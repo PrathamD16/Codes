@@ -3,6 +3,7 @@ using namespace std;
 
 class minheap
 {
+    int max_size; //This tell how many elements are inserted and indicate what is current size of the array
     int size;
     int *arr;
 
@@ -78,6 +79,7 @@ public:
     void insert(int x)
     {
         size++;
+        max_size = size;
         int i = size - 1;
         arr[i] = x;
         while (i != 0 && arr[parent(i)] > arr[i])
@@ -98,9 +100,9 @@ public:
 
     void sort()
     {
-        int temp[5];
+        int temp[max_size];
         cout << "[  ";
-        for(int i = 0; i < 5; i++)
+        for(int i = 0; i < max_size; i++)
         {
             temp[i] = extract();
             cout << temp[i] << "  ";
